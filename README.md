@@ -13,7 +13,7 @@ npm run dev
 
 This dummy project is created to show the problem that appears only in `Nuxt@2.4.x` and is not present in `Nuxt@2.3.x`.
  
-##### 1. the project uses NPM module [`vue-string-format`](https://www.npmjs.com/package/vue-string-format) created to specifically to reproduce the issue
+##### 1. the project uses NPM module [`vue-string-format`](https://www.npmjs.com/package/vue-string-format) created to reproduce the issue
 
 ##### 2. `vue-string-format` NPM module just adds `format` function to `String.prototype` and registers it as Vue filter
 
