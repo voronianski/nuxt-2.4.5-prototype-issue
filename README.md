@@ -1,5 +1,14 @@
 # Nuxt@2.4.5 Issue with modules that edit native JS objects `prototype`s.
 
+## Usage
+
+```bash
+git clone git@github.com:voronianski/nuxt-2.4.5-prototype-issue.git
+cd nuxt-2.4.5-prototype-issue
+npm i
+npm run dev
+```
+
 ## What's the problem?
 
 This dummy project is created to show the problem that appears only in `Nuxt@2.4.x` and is not present in `Nuxt@2.3.x`.
