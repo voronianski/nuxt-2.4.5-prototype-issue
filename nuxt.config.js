@@ -35,7 +35,9 @@ export default {
   },
 
   render: {
-    runInNewContext: false
+    bundleRenderer: {
+      runInNewContext: false
+    }
   },
 
   // don't confuse it with routes middleware
