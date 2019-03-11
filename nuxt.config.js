@@ -34,6 +34,10 @@ export default {
     transpile: []
   },
 
+  render: {
+    runInNewContext: false
+  },
+
   // don't confuse it with routes middleware
   // which are being called before each route in client side or SSR
   // https://nuxtjs.org/api/configuration-servermiddleware
