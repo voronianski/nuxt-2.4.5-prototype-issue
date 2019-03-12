@@ -36,7 +36,7 @@ export default {
 
   render: {
     bundleRenderer: {
-      // runInNewContext: false
+      runInNewContext: false
     }
   },
 
