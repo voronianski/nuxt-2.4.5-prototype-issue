@@ -9,6 +9,19 @@ npm i
 npm run dev
 ```
 
+## Solution
+
+```js
+// nuxt.config.js
+render: {
+  bundleRenderer: {
+    runInNewContext: false
+  }
+}
+```
+
+Detailed explanation is available here - https://github.com/nuxt/nuxt.js/issues/5178.
+
 ## What's the problem?
 
 This dummy project is created to show the problem that appears only in `Nuxt@2.4.x` and is not present in `Nuxt@2.3.x`.
